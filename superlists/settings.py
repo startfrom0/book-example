@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 if 'SITENAME' in os.environ:
     ALLOWED_HOSTS = [os.environ['SITENAME']]
+    DEBUG = False
 
 
 # Application definition
